@@ -9,7 +9,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class arquivo {
-
 	public static void main(String[] args) { // ler arquivo CSV 
 		String fileName = "UF.csv";
 		try (Stream<String> lines = Files.lines(Paths.get(fileName))) {
