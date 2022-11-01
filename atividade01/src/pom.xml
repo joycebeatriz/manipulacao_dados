@@ -1,4 +1,5 @@
-<dependency>
+<dependency xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="pom.xsd">
     <groupId>com.opencsv</groupId>
     <artifactId>opencsv</artifactId>
     <version>4.1</version>
